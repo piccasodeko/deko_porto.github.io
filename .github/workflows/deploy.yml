@@ -30,3 +30,4 @@ jobs:
         with:
           folder: .output/public
           branch: gh-pages
+          clean: false
