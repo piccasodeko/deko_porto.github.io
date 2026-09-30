@@ -1,29 +1,33 @@
-name: Deploy to GitHub Pages 
+name: Deploy to GitHub Pages 
 
 on:
-push:
-branches: [ main ] 
+  push:
+    branches: [ main ] 
 
 permissions:
-contents: write 
+  contents: write 
 
 jobs:
-build-and-deploy:
-runs-on: ubuntu-latest
-steps:
-- name: Checkout Source Code
-uses: actions/checkout@v4 
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Source Code
+        uses: actions/checkout@v4 
 
-name: Setup Node.js Environment
-uses: actions/setup-node@v4
-with:
-node-version: '20'
-name: Install Dependencies
-run: npm install
-name: Build Project
-run: npm run build
-name: Deploy static assets
-uses: JamesIves/github-pages-deploy-action@v4
-with:
-folder: dist
-branch: gh-pages
+      - name: Setup Node.js Environment
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          # We removed the 'cache' rule here to fix your missing lock file error!
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Build Project
+        run: npm run generate  # Nuxt uses 'generate' to create static HTML/CSS files
+
+      - name: Deploy static assets
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: .output/public  # Nuxt 3 puts static files here instead of 'dist'
+          branch: gh-pages
