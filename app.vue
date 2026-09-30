@@ -108,21 +108,35 @@ const activeBg = ref('default')
 const projects = ref([
   {
     id: 'project1',
-    title: 'Brutalist Spaces',
+    title: 'PROJECT ONE',
     category: 'Exterior Design',
     image: 'https://picsum.photos', // Change this to your image link
     link: '#' // Put an external page link here if you want it to be clickable
   },
   {
     id: 'project2',
-    title: 'Minimalist Mono',
+    title: 'PROJECT TWO',
     category: 'Interior Design',
     image: 'https://picsum.photos', // Change this to your image link
     link: '#'
   },
   {
     id: 'project3',
-    title: 'Glass Pavilion',
+    title: 'PROJECT THREE',
+    category: 'Conceptual Architecture',
+    image: 'https://picsum.photos', // Change this to your image link
+    link: '#'
+  },
+    {
+    id: 'project4',
+    title: 'PROJECT FOUR',
+    category: 'Conceptual Architecture',
+    image: 'https://picsum.photos', // Change this to your image link
+    link: '#'
+  },
+    {
+    id: 'project5',
+    title: 'PROJECT FIVE',
     category: 'Conceptual Architecture',
     image: 'https://picsum.photos', // Change this to your image link
     link: '#'
