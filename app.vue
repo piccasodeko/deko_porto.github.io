@@ -1,3 +1,4 @@
+<!-- app.vue -->
 <template>
   <div style="font-family: system-ui, sans-serif; text-align: center; padding: 4rem; background: #F2F0ED; min-height: 100vh; color: #1A1A1A;">
     <h1 style="font-size: 2.5rem; letter-spacing: -0.02em;">DEKO PORTO</h1>
@@ -7,3 +8,7 @@
     </div>
   </div>
 </template>
+
+<script setup>
+// This forces Nuxt to mount cleanly on static providers
+</script>
