@@ -48,8 +48,8 @@
           <div class="about-content">
             <!-- 2. CUSTOMIZE YOUR ABOUT DESCRIPTION HERE -->
             <span class="about-label">Philosophy</span>
-            <h2 class="about-headline">Creating <em>structural</em> balance in design.</h2>
-            <p class="about-body">I focus on architectural visualizations that respect raw texturing, geometric clean lines, and environmental light play.</p>
+            <h2 class="about-headline">Design is form of <em>Communication</em>.</h2>
+            <p class="about-body">I focus on Graphic Design and Motion Graphic by treating is as form of communication between Brand/ Client with their audience.</p>
             
             <div class="about-stats">
               <div class="stat-item"><span class="stat-number">5+</span><span class="stat-label">Years Exp</span></div>
