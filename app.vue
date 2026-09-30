@@ -1,30 +1,9 @@
-<!-- app.vue -->
 <template>
-  <div class="portfolio-container">
-    <!-- Replace this text with your actual project details -->
-    <header class="custom-header">
-      <h1>DEKO PORTO</h1>
-      <p>Custom Web Design & Architecture</p>
-    </header>
-
-    <main class="project-showcase">
-      <section class="left-panel">
-        <h2>Selected Works</h2>
-        <ul>
-          <li>01. Architectural Rendering</li>
-          <li>02. Digital Portfolio Space</li>
-        </ul>
-      </section>
-    </main>
+  <div style="font-family: system-ui, sans-serif; text-align: center; padding: 4rem; background: #F2F0ED; min-height: 100vh; color: #1A1A1A;">
+    <h1 style="font-size: 2.5rem; letter-spacing: -0.02em;">DEKO PORTO</h1>
+    <p style="color: #8A8580; margin-top: 0.5rem;">Architecture & Design Portfolio Workspace</p>
+    <div style="margin-top: 2rem; border-top: 1px solid rgba(0,0,0,0.1); padding-top: 2rem;">
+      <p>✨ Your Nuxt 3 site engine is up and running successfully on GitHub Pages!</p>
+    </div>
   </div>
 </template>
-
-<style scoped>
-/* You can paste your styling parameters directly here to keep it structured */
-.portfolio-container {
-  font-family: 'Instrument Sans', sans-serif;
-  padding: 3rem;
-  background-color: #F2F0ED;
-  color: #1A1A1A;
-}
-</style>
