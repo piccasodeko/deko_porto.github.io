@@ -4,6 +4,6 @@ export default defineNuxtConfig({
   ssr: false, 
   app: {
     // This tells Nuxt to look inside your repository subfolder for styles and files
-    baseURL: '/deko_porto.github.io/' 
+    baseURL: '/piccasodeko.github.io/' 
   }
 })
