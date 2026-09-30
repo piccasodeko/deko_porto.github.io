@@ -5,7 +5,7 @@
     <header class="site-header">
       <div class="site-brand">
         <!-- 1. CUSTOMIZE YOUR BRAND NAME AND TAGLINE HERE -->
-        <a href="#" class="site-title" @click.prevent="activePanel = 'work'">DEKO PORTO 26</a>
+        <a href="#" class="site-title" @click.prevent="activePanel = 'work'">DEKO PICCASO</a>
         <div class="site-divider-v"></div>
         <span class="site-tagline">GRAPHIC DESIGN & MOTION</span>
       </div>
