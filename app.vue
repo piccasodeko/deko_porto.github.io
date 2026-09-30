@@ -5,9 +5,9 @@
     <header class="site-header">
       <div class="site-brand">
         <!-- 1. CUSTOMIZE YOUR BRAND NAME AND TAGLINE HERE -->
-        <a href="#" class="site-title" @click.prevent="activePanel = 'work'">DEKO PORTO</a>
+        <a href="#" class="site-title" @click.prevent="activePanel = 'work'">DEKO PORTO 26</a>
         <div class="site-divider-v"></div>
-        <span class="site-tagline">Architecture & Design</span>
+        <span class="site-tagline">GRAPHIC DESIGN & MOTION</span>
       </div>
       <nav class="site-header-nav">
         <a href="#" :class="{ 'nav-active': activePanel === 'work' }" @click.prevent="activePanel = 'work'">Work</a>
@@ -23,7 +23,7 @@
         <!-- Work Panel -->
         <div class="panel" :class="{ 'panel-active': activePanel === 'work' }">
           <div class="panel-header">
-            <span>Selected Projects</span>
+            <span>Selected Works</span>
           </div>
           
           <!-- This loop automatically generates rows based on your array below -->
@@ -88,9 +88,9 @@
       <span>© 2026 DEKO PORTO</span>
       <div class="footer-links">
         <!-- 3. CUSTOMIZE YOUR SOCIAL LINKS HERE -->
-        <a href="https://instagram.com" target="_blank">Instagram</a>
+        <a href="https://instagram.com" target="@piccasodeko">Instagram</a>
         <span class="footer-dot">•</span>
-        <a href="mailto:your@email.com">Email</a>
+        <a href="mailto:piccasodeko@gmail.com">Email</a>
       </div>
     </footer>
   </div>
