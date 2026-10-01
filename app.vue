@@ -49,11 +49,9 @@
             <!-- 2. CUSTOMIZE YOUR ABOUT DESCRIPTION HERE -->
             <span class="about-label">Philosophy</span>
             <h2 class="about-headline">Design is Form of <em>Communication</em>.</h2>
-            <p class="about-body">I focus on Graphic Design and Motion Graphic by treating it as form of communication between Brand/ Client with their audience.</p>
-            
+            <p class="about-body">I focus on Graphic Design and Motion Graphic by treating it as form of communication between Brand/ Client with their audience.</p>  
             <div class="about-stats">
               <div class="stat-item"><span class="stat-number">5+</span><span class="stat-label">Years Exp</span></div>
-              <div class="stat-item"><span class="stat-number">25+</span><span class="stat-label">Concepts</span></div>
             </div>
           </div>
         </div>
